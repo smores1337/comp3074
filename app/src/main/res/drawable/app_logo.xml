@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App logo: a rounded tile with a plus/minus counter symbol -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <path
+        android:fillColor="@color/logo_tile"
+        android:pathData="M24,0h72a24,24 0,0 1,24 24v72a24,24 0,0 1,-24 24h-72a24,24 0,0 1,-24 -24v-72a24,24 0,0 1,24 -24z" />
+    <!-- plus -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M34,22h12v18h18v12h-18v18h-12v-18h-18v-12h18z" />
+    <!-- minus -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M60,80h44v12h-44z" />
+</vector>
